@@ -1,1 +1,1 @@
-# @imgcook/plugin-example
+# @imgcook/generator-react
