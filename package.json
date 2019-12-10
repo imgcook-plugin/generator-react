@@ -1,6 +1,6 @@
 {
   "name": "@imgcook/generator-react",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "generate a new project from a react template",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,5 @@
     "registry": "http://registry.npmjs.org/",
     "access": "public"
   },
-  "gitHead": "43873e662d8cb86870611c4c8427d748ebd03d49"
+  "gitHead": "d42aeb8bfefaf09cc036c68aa9770b61587dd91b"
 }
