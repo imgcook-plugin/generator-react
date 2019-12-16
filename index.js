@@ -1,8 +1,9 @@
 /**
- * Copyright(c) xxx Holding Limited.
+ * generator-react
  *
- * Authors: xx
+ * Authors: gindis
  */
+
 const ora = require('ora');
 const path = require('path');
 const chalk = require('chalk');
