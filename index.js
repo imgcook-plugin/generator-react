@@ -15,12 +15,14 @@ const childProcess = require('child_process');
 /**
  * @param {object} option: { filePath, index, config }
  */
-const generateReactProjectPlugin = async (option) => {
+const generateReactProjectPlugin = async option => {
   const { folderPath, name } = option;
   if (fse.existsSync(folderPath)) {
-    console.log(chalk.red(
-      `当前目录已有名为 ${name} 的项目，请 \`cd ${name} && yarn start\` 后访问 http://localhost:3000`
-    ));
+    console.log(
+      chalk.red(
+        `当前目录已有名为 ${name} 的项目，请 \`cd ${name} && yarn start\` 后访问 http://localhost:3000`
+      )
+    );
     return;
   }
   if (!fse.existsSync(`${folderPath}`)) {
@@ -37,8 +39,7 @@ module.exports = (...args) => {
   });
 };
 
-
-const cpAsset = (option) => {
+const cpAsset = option => {
   const { folderPath, name } = option;
   const assetsDirname = `${__dirname}/assets/*`;
   try {
