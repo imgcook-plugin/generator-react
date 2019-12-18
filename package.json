@@ -22,5 +22,8 @@
     "registry": "http://registry.npmjs.org/",
     "access": "public"
   },
-  "gitHead": "7e8ec66cd5faf5fe759ce4dd823504831fdff6f2"
+  "gitHead": "7e8ec66cd5faf5fe759ce4dd823504831fdff6f2",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
 }
