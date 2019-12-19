@@ -10,8 +10,8 @@ function App() {
       </div>
       {
         Object.keys(mods).length ? Object.keys(mods).map((modName) => {
-          return React.createElement(mods[ modName ]);
-        }) : <span>{'请在项目根目录执行 imgcook pull <moduleid> --path ./mods/'}</span>
+          return React.createElement(mods[modName]);
+        }) : <span>{'请在项目根目录执行 imgcook pull <moduleId> --path ./src/mods/<moduleId>'}</span>
       }
     </div>
   );
