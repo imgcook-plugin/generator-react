@@ -59,7 +59,7 @@ const cpAsset = option => {
         `执行 \`cd ${name} && yarn install && yarn start\` 后访问 http://localhost:3000 查看您的预览页面`
       );
       spinner.succeed(
-        `在 \`${name}\` 目录中，您可以 \`imgcook pull -a 模块id\`，查看您的模块预览效果`
+        `在 \`${name}\` 目录中，您可以 \`imgcook pull 模块id\`，查看您的模块预览效果`
       );
     });
   } catch (error) {
