@@ -1,5 +1,5 @@
 
-imgcook 示例项目，参考 create-react-app。可在本地预览 react-hooks-standard DSL 生成的代码。
+imgcook 示例项目，参考 create-react-app。可在本地预览 react-standard dsl 生成的代码。
 
 ## 启动
 
@@ -11,10 +11,6 @@ imgcook 示例项目，参考 create-react-app。可在本地预览 react-hooks-
 
 ## 获取模块
 
-执行 `imgcook pull <moduleid> --path <path>`
-
-本项目中，您需要指定 `path` 到 `./mod` 下，即
-
-执行 `imgcook pull <moduleid> --path ./mod`
+在项目根目录下执行 `imgcook pull <moduleid>`
 
 完成后，即可在 [http://localhost:3000](http://localhost:3000) 查看结果。
