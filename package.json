@@ -1,6 +1,6 @@
 {
   "name": "@imgcook/generator-react",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "generate a new project from a react template",
   "main": "index.js",
   "scripts": {
